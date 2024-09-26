@@ -23,6 +23,22 @@ Del anterior diagrama de componentes (de alto nivel), se desprendió el siguient
 ### Parte I
 
 1. Integre al proyecto base suministrado los Beans desarrollados en el ejercicio anterior. Sólo copie las clases, NO los archivos de configuración. Rectifique que se tenga correctamente configurado el esquema de inyección de dependencias con las anotaciones @Service y @Autowired.
+	Se realizó este procedimiento y se queda correctamente configurado sin necesida de realizar ninguna modificación
+
+	<p align="center">
+	   <img src="img/screenshots/1.png" alt="resultado1" width="700px">
+	</p>
+
+	<p align="center">
+	   <img src="img/screenshots/1.1.png" alt="resultado1" width="700px">
+	</p>
+
+	Sin embargo, al realizar mvn packaga las pruebas presentan un fallo.
+
+	<p align="center">
+	   <img src="img/screenshots/1.2.png" alt="resultado1" width="700px">
+	</p>
+
 
 2. Modifique el bean de persistecia 'InMemoryBlueprintPersistence' para que por defecto se inicialice con al menos otros tres planos, y con dos asociados a un mismo autor.
 
